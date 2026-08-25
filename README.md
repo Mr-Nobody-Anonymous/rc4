@@ -2,8 +2,6 @@
 
 Implementation of the **RC4 stream cipher** in both **C** and **Python**, with command-line tools to encrypt and decrypt files.
 
-> ⚠️ **Educational purpose only.** RC4 is cryptographically broken and must never be used in production. See [Security Notes](#-security-notes).
-
 ---
 
 ## Table of Contents
