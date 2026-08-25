@@ -1,0 +1,11 @@
+This is a test file for RC4 encryption.
+It contains multiple lines of text.
+The RC4 stream cipher will encrypt this content.
+After encryption, the file will contain binary data.
+Running the decryptor with the correct key should restore this exact content.
+
+Special characters: !@#$%^&*()_+-=[]{}|;':",./<>?
+Numbers: 1234567890
+Unicode: 你好世界 🌍 Привет мир
+
+End of test file.
