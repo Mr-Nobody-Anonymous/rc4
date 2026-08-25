@@ -245,7 +245,7 @@ cipher.decrypt(part1 + part2)                    # -> b"First part second part"
 
 ---
 
-## 🔒 Security Notes
+##  Security Notes
 
 This assignment demonstrates *how* RC4 works, not how it should be used today.
 Do **not** use RC4 to protect real data:
