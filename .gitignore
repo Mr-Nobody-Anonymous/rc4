@@ -1,0 +1,12 @@
+# Build outputs
+*.exe
+*.o
+*.obj
+
+# Generated runtime files
+file_decrypted.txt
+file.txt.backup
+
+# Python
+__pycache__/
+*.pyc

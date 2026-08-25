@@ -130,9 +130,9 @@ def main():
             print("-" * 50)
             print("Verifying against original backup...")
             if verify_files(ORIGINAL_FILE, DECRYPTED_FILE):
-                print("✓ VERIFICATION PASSED: Decrypted file matches original exactly!")
+                print("[PASS] VERIFICATION PASSED: Decrypted file matches original exactly!")
             else:
-                print("✗ VERIFICATION FAILED: Decrypted file does NOT match original!")
+                print("[FAIL] VERIFICATION FAILED: Decrypted file does NOT match original!")
                 sys.exit(1)
         else:
             print("-" * 50)
